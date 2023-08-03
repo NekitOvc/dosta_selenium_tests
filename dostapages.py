@@ -73,3 +73,81 @@ class CategoryMenu(BasePage):
         salads = self.find_element(Locators.category_salads)
         salads.click()
         return salads
+
+    def category_soups(self):
+        soups = self.find_element(Locators.category_soups)
+        soups.click()
+        return soups
+
+    def category_desserts(self):
+        desserts = self.find_element(Locators.category_desserts)
+        desserts.click()
+        return desserts
+
+    def category_drinks(self):
+        drinks = self.find_element(Locators.category_drinks)
+        drinks.click()
+        return drinks
+
+    def category_sauces(self):
+        sauces = self.find_element(Locators.category_sauces)
+        sauces.click()
+        return sauces
+
+
+class Compilations(BasePage):
+
+    def compilations_new(self):
+        new = self.find_element(Locators.compilations_new)
+        new.click()
+        return new
+
+    def compilations_fastfood(self):
+        fastfood = self.find_element(Locators.compilations_fastfood)
+        fastfood.click()
+        return fastfood
+
+    def compilations_pan_asian(self):
+        pan_asian = self.find_element(Locators.compilations_pan_asian)
+        pan_asian.click()
+        return pan_asian
+
+    def compilations_lunch(self):
+        lunch = self.find_element(Locators.compilations_lunch)
+        lunch.click()
+        return lunch
+
+    def compilations_hearty(self):
+        hearty = self.find_element(Locators.compilations_hearty)
+        hearty.click()
+        return hearty
+
+    def compilations_light(self):
+        light = self.find_element(Locators.compilations_light)
+        light.click()
+        return light
+
+    def compilations_shrimps(self):
+        shrimps = self.find_element(Locators.compilations_shrimps)
+        shrimps.click()
+        return shrimps
+
+    def compilations_salmon(self):
+        salmon = self.find_element(Locators.compilations_salmon)
+        salmon.click()
+        return salmon
+
+    def compilations_vegetarian_menu(self):
+        vegetarian_menu = self.find_element(Locators.compilations_vegetarian_menu)
+        vegetarian_menu.click()
+        return vegetarian_menu
+
+    def compilations_for_kids(self):
+        for_kids = self.find_element(Locators.compilations_for_kids)
+        for_kids.click()
+        return for_kids
+
+    def compilations_sweet(self):
+        sweet = self.find_element(Locators.compilations_sweet)
+        sweet.click()
+        return sweet

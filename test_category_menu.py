@@ -109,6 +109,7 @@ def test_category_bowls(driver):
     assert driver.current_url == 'https://dostaevsky.ru/bowls'
     assert driver.find_element(By.CLASS_NAME, 'title').text == 'Боулы'
 
+
 def test_category_woks(driver):
     woks = CategoryMenu(driver)
     woks.get_to_site()
@@ -125,3 +126,39 @@ def test_category_salads(driver):
 
     assert driver.current_url == 'https://dostaevsky.ru/salads'
     assert driver.find_element(By.CLASS_NAME, 'title').text == 'Салаты'
+
+
+def test_category_soups(driver):
+    soups = CategoryMenu(driver)
+    soups.get_to_site()
+    soups.category_soups()
+
+    assert driver.current_url == 'https://dostaevsky.ru/soups'
+    assert driver.find_element(By.CLASS_NAME, 'title').text == 'Супы'
+
+
+def test_category_desserts(driver):
+    desserts = CategoryMenu(driver)
+    desserts.get_to_site()
+    desserts.category_desserts()
+
+    assert driver.current_url == 'https://dostaevsky.ru/desserts'
+    assert driver.find_element(By.CLASS_NAME, 'title').text == 'Десерты'
+
+
+def test_category_drinks(driver):
+    drinks = CategoryMenu(driver)
+    drinks.get_to_site()
+    drinks.category_drinks()
+
+    assert driver.current_url == 'https://dostaevsky.ru/drinks'
+    assert driver.find_element(By.CLASS_NAME, 'title').text == 'Напитки'
+
+
+def test_category_sauces(driver):
+    sauces = CategoryMenu(driver)
+    sauces.get_to_site()
+    sauces.category_sauces()
+
+    assert driver.current_url == 'https://dostaevsky.ru/sauces'
+    assert driver.find_element(By.CLASS_NAME, 'title').text == 'Соусы'
