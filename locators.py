@@ -15,3 +15,4 @@ class Locators:
     category_snacks = (By.XPATH, '/html/body/div[2]/div[3]/div/main/div[3]/div[5]/div[2]/a[6]')
     category_bowls = (By.XPATH, '/html/body/div[2]/div[3]/div/main/div[3]/div[5]/div[2]/a[7]')
     category_woks = (By.XPATH, '/html/body/div[2]/div[3]/div/main/div[3]/div[5]/div[2]/a[8]')
+    category_salads = (By.XPATH, '/html/body/div[2]/div[3]/div/main/div[3]/div[5]/div[2]/a[9]')

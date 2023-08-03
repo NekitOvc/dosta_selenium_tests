@@ -68,3 +68,8 @@ class CategoryMenu(BasePage):
         woks = self.find_element(Locators.category_woks)
         woks.click()
         return woks
+
+    def category_salads(self):
+        salads = self.find_element(Locators.category_salads)
+        salads.click()
+        return salads

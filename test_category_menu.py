@@ -116,3 +116,12 @@ def test_category_woks(driver):
 
     assert driver.current_url == 'https://dostaevsky.ru/woks'
     assert driver.find_element(By.CLASS_NAME, 'title').text == 'Wok'
+
+
+def test_category_salads(driver):
+    salads = CategoryMenu(driver)
+    salads.get_to_site()
+    salads.category_salads()
+
+    assert driver.current_url == 'https://dostaevsky.ru/salads'
+    assert driver.find_element(By.CLASS_NAME, 'title').text == 'Салаты'
