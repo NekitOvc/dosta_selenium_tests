@@ -32,3 +32,17 @@ class Locators:
     compilations_vegetarian_menu = (By.CLASS_NAME, 'vegetarian-menu-custom__nav')
     compilations_for_kids = (By.CLASS_NAME, 'for-kids-custom__nav')
     compilations_sweet = (By.CLASS_NAME, 'sweet-custom__nav')
+
+    footer_navigation_menu_mexican = (By.XPATH, '/html/body/div[2]/div[3]/div/main/div[3]/footer/div/div[1]/div[1]/ul/li[1]/a')
+    footer_navigation_menu_italian = (By.XPATH, '/html/body/div[2]/div[3]/div/main/div[3]/footer/div/div[1]/div[1]/ul/li[2]/a')
+    footer_navigation_menu_chinese = (By.XPATH, '/html/body/div[2]/div[3]/div/main/div[3]/footer/div/div[1]/div[1]/ul/li[3]/a')
+    footer_navigation_menu_japanese = (By.XPATH, '/html/body/div[2]/div[3]/div/main/div[3]/footer/div/div[1]/div[1]/ul/li[4]/a')
+
+    footer_navigation_link_our_kitchen = (By.XPATH, '/html/body/div[2]/div[3]/div/main/div[3]/footer/div/div[1]/div[2]/ul/li[1]/a')
+    footer_navigation_link_shipping = (By.XPATH, '/html/body/div[2]/div[3]/div/main/div[3]/footer/div/div[1]/div[2]/ul/li[2]/a')
+    footer_navigation_link_payment = (By.XPATH, '/html/body/div[2]/div[3]/div/main/div[3]/footer/div/div[1]/div[2]/ul/li[3]/a')
+    footer_navigation_link_reviews = (By.XPATH, '/html/body/div[2]/div[3]/div/main/div[3]/footer/div/div[1]/div[2]/ul/li[4]/a')
+    footer_navigation_link_contacts = (By.XPATH, '/html/body/div[2]/div[3]/div/main/div[3]/footer/div/div[1]/div[2]/ul/li[5]/a')
+    footer_navigation_link_job = (By.XPATH, '/html/body/div[2]/div[3]/div/main/div[3]/footer/div/div[1]/div[2]/ul/li[6]/a')
+    footer_navigation_link_franchise = (By.XPATH, '/html/body/div[2]/div[3]/div/main/div[3]/footer/div/div[1]/div[2]/ul/li[7]/a')
+    footer_navigation_link_google_form = (By.XPATH, '/html/body/div[2]/div[3]/div/main/div[3]/footer/div/div[1]/div[2]/ul/li[8]/a')

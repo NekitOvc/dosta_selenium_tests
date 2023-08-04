@@ -151,3 +151,75 @@ class Compilations(BasePage):
         sweet = self.find_element(Locators.compilations_sweet)
         sweet.click()
         return sweet
+
+
+class FooterNavigationMenu(BasePage):
+    def footer_navigation_menu_mexican(self):
+        mexican = self.find_element(Locators.footer_navigation_menu_mexican)
+        mexican.click()
+        return mexican
+
+
+    def footer_navigation_menu_italian(self):
+        italian = self.find_element(Locators.footer_navigation_menu_italian)
+        italian.click()
+        return italian
+
+    def footer_navigation_menu_chinese(self):
+        chinese = self.find_element(Locators.footer_navigation_menu_chinese)
+        chinese.click()
+        return chinese
+
+    def footer_navigation_menu_japanese(self):
+        japanese = self.find_element(Locators.footer_navigation_menu_japanese)
+        japanese.click()
+        return japanese
+
+
+class FooterNavigationLink(BasePage):
+
+    def footer_navigation_link_our_kitchen(self):
+        our_kitchen = self.find_element(Locators.footer_navigation_link_our_kitchen)
+        our_kitchen.click()
+        return our_kitchen
+
+
+    def footer_navigation_link_shipping(self):
+        shipping = self.find_element(Locators.footer_navigation_link_shipping)
+        shipping.click()
+        return shipping
+
+
+    def footer_navigation_link_payment(self):
+        payment = self.find_element(Locators.footer_navigation_link_payment)
+        payment.click()
+        return payment
+
+
+    def footer_navigation_link_reviews(self):
+        reviews = self.find_element(Locators.footer_navigation_link_reviews)
+        reviews.click()
+        return reviews
+
+    def footer_navigation_link_contacts(self):
+        contacts = self.find_element(Locators.footer_navigation_link_contacts)
+        contacts.click()
+        return contacts
+
+
+    def footer_navigation_link_job(self):
+        job = self.find_element(Locators.footer_navigation_link_job)
+        job.click()
+        return job
+
+
+    def footer_navigation_link_franchise(self):
+        franchise = self.find_element(Locators.footer_navigation_link_franchise)
+        franchise.click()
+        return franchise
+
+
+    def footer_navigation_link_google_form(self):
+        google_form = self.find_element(Locators.footer_navigation_link_google_form)
+        google_form.click()
+        return google_form
