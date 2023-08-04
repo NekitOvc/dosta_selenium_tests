@@ -1,4 +1,4 @@
-from dostapages import CategoryMenu, Compilations
+from dostapages import Compilations
 from selenium.webdriver.common.by import By
 
 

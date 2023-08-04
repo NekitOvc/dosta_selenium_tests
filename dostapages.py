@@ -159,7 +159,6 @@ class FooterNavigationMenu(BasePage):
         mexican.click()
         return mexican
 
-
     def footer_navigation_menu_italian(self):
         italian = self.find_element(Locators.footer_navigation_menu_italian)
         italian.click()
@@ -183,18 +182,15 @@ class FooterNavigationLink(BasePage):
         our_kitchen.click()
         return our_kitchen
 
-
     def footer_navigation_link_shipping(self):
         shipping = self.find_element(Locators.footer_navigation_link_shipping)
         shipping.click()
         return shipping
 
-
     def footer_navigation_link_payment(self):
         payment = self.find_element(Locators.footer_navigation_link_payment)
         payment.click()
         return payment
-
 
     def footer_navigation_link_reviews(self):
         reviews = self.find_element(Locators.footer_navigation_link_reviews)
@@ -206,20 +202,84 @@ class FooterNavigationLink(BasePage):
         contacts.click()
         return contacts
 
-
     def footer_navigation_link_job(self):
         job = self.find_element(Locators.footer_navigation_link_job)
         job.click()
         return job
-
 
     def footer_navigation_link_franchise(self):
         franchise = self.find_element(Locators.footer_navigation_link_franchise)
         franchise.click()
         return franchise
 
-
     def footer_navigation_link_google_form(self):
         google_form = self.find_element(Locators.footer_navigation_link_google_form)
         google_form.click()
         return google_form
+
+
+class FooterNavigationApp(BasePage):
+    def footer_navigation_app_itunes(self):
+        itunes = self.find_element(Locators.footer_navigation_app_itunes)
+        itunes.click()
+        return itunes
+
+    def footer_navigation_app_google_play(self):
+        google_play = self.find_element(Locators.footer_navigation_app_google_play)
+        google_play.click()
+        return google_play
+
+    def footer_navigation_app_huawei(self):
+        huawei = self.find_element(Locators.footer_navigation_app_huawei)
+        huawei.click()
+        return huawei
+
+
+class FooterNavigationSoc(BasePage):
+    def footer_navigation_soc_vk(self):
+        vk = self.find_element(Locators.footer_navigation_soc_vk)
+        vk.click()
+        return vk
+
+    def footer_navigation_soc_telegram(self):
+        telegram = self.find_element(Locators.footer_navigation_soc_telegram)
+        telegram.click()
+        return telegram
+
+    def footer_navigation_soc_youtube(self):
+        youtube = self.find_element(Locators.footer_navigation_soc_youtube)
+        youtube.click()
+        return youtube
+
+
+class Footer(BasePage):
+    def footer_user_agreement(self):
+        user_agreement = self.find_element(Locators.footer_user_agreement)
+        user_agreement.click()
+        return user_agreement
+
+    def footer_license_agreement(self):
+        license_agreement = self.find_element(Locators.footer_license_agreement)
+        license_agreement.click()
+        return license_agreement
+
+    def footer_confidentiality_of_personal_information(self):
+        confidentiality_of_personal_information = self.find_element(
+            Locators.footer_confidentiality_of_personal_information)
+        confidentiality_of_personal_information.click()
+        return confidentiality_of_personal_information
+
+    def footer_promo_codes(self):
+        promo_codes = self.find_element(Locators.footer_promo_codes)
+        promo_codes.click()
+        return promo_codes
+
+    def footer_full_menu(self):
+        full_menu = self.find_element(Locators.footer_full_menu)
+        full_menu.click()
+        return full_menu
+
+    def footer_trademarks(self):
+        trademarks = self.find_element(Locators.footer_trademarks)
+        trademarks.click()
+        return trademarks

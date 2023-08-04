@@ -46,3 +46,18 @@ class Locators:
     footer_navigation_link_job = (By.XPATH, '/html/body/div[2]/div[3]/div/main/div[3]/footer/div/div[1]/div[2]/ul/li[6]/a')
     footer_navigation_link_franchise = (By.XPATH, '/html/body/div[2]/div[3]/div/main/div[3]/footer/div/div[1]/div[2]/ul/li[7]/a')
     footer_navigation_link_google_form = (By.XPATH, '/html/body/div[2]/div[3]/div/main/div[3]/footer/div/div[1]/div[2]/ul/li[8]/a')
+
+    footer_navigation_app_itunes = (By.XPATH, '/html/body/div[2]/div[3]/div/main/div[3]/footer/div/div[2]/div[1]/a[1]')
+    footer_navigation_app_google_play = (By.XPATH, '/html/body/div[2]/div[3]/div/main/div[3]/footer/div/div[2]/div[1]/a[2]')
+    footer_navigation_app_huawei = (By.XPATH, '/html/body/div[2]/div[3]/div/main/div[3]/footer/div/div[2]/div[1]/a[3]')
+
+    footer_navigation_soc_vk = (By.XPATH, '/html/body/div[2]/div[3]/div/main/div[3]/footer/div/div[2]/div[2]/a[1]')
+    footer_navigation_soc_telegram = (By.XPATH, '/html/body/div[2]/div[3]/div/main/div[3]/footer/div/div[2]/div[2]/a[2]')
+    footer_navigation_soc_youtube = (By.XPATH, '/html/body/div[2]/div[3]/div/main/div[3]/footer/div/div[2]/div[2]/a[3]')
+
+    footer_user_agreement = (By.XPATH, '/html/body/div[2]/footer/div[1]/div/ul/li[1]/a')
+    footer_license_agreement = (By.XPATH, '/html/body/div[2]/footer/div[1]/div/ul/li[2]/a')
+    footer_confidentiality_of_personal_information = (By.XPATH, '/html/body/div[2]/footer/div[1]/div/ul/li[3]/a')
+    footer_promo_codes = (By.XPATH, '/html/body/div[2]/footer/div[1]/div/ul/li[4]/a')
+    footer_full_menu = (By.XPATH, '/html/body/div[2]/footer/div[1]/div/ul/li[5]/a')
+    footer_trademarks = (By.XPATH, '/html/body/div[2]/footer/div[1]/div/ul/li[6]/a')
