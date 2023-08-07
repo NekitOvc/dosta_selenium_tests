@@ -61,3 +61,11 @@ class Locators:
     footer_promo_codes = (By.XPATH, '/html/body/div[2]/footer/div[1]/div/ul/li[4]/a')
     footer_full_menu = (By.XPATH, '/html/body/div[2]/footer/div[1]/div/ul/li[5]/a')
     footer_trademarks = (By.XPATH, '/html/body/div[2]/footer/div[1]/div/ul/li[6]/a')
+
+    promo = (By.XPATH, '/html/body/div[2]/div[3]/aside/nav/div/div/div[4]/div[1]/a')
+    promo_present_when_ordering_through_app = (By.XPATH, '/html/body/div[2]/div[3]/div/main/div[2]/div[5]/div[3]/a[1]')
+    promo_3_for_439 = (By.XPATH, '/html/body/div[2]/div[3]/div/main/div[2]/div[5]/div[3]/a[2]')
+    promo_2_for_649 = (By.XPATH, '/html/body/div[2]/div[3]/div/main/div[2]/div[5]/div[3]/a[3]')
+    promo_3_for_1149 = (By.XPATH, '/html/body/div[2]/div[3]/div/main/div[2]/div[5]/div[3]/a[4]')
+    promo_2_woks_for_499 = (By.XPATH, '/html/body/div[2]/div[3]/div/main/div[2]/div[5]/div[3]/a[5]')
+    promo_2_for_849 = (By.XPATH, '/html/body/div[2]/div[3]/div/main/div[2]/div[5]/div[3]/a[6]')

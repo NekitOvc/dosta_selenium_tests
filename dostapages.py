@@ -283,3 +283,40 @@ class Footer(BasePage):
         trademarks = self.find_element(Locators.footer_trademarks)
         trademarks.click()
         return trademarks
+
+
+class PromoPages(BasePage):
+    def promo_button(self):
+        button = self.find_element(Locators.promo)
+        button.click()
+        return button
+
+    def promo_present_when_ordering_through_app(self):
+        promo = self.find_element(Locators.promo_present_when_ordering_through_app)
+        promo.click()
+        return promo
+
+    def promo_3_for_439(self):
+        promo = self.find_element(Locators.promo_3_for_439)
+        promo.click()
+        return promo
+
+    def promo_2_for_649(self):
+        promo = self.find_element(Locators.promo_2_for_649)
+        promo.click()
+        return promo
+
+    def promo_3_for_1149(self):
+        promo = self.find_element(Locators.promo_3_for_1149)
+        promo.click()
+        return promo
+
+    def promo_2_woks_for_499(self):
+        promo = self.find_element(Locators.promo_2_woks_for_499)
+        promo.click()
+        return promo
+
+    def promo_2_for_849(self):
+        promo = self.find_element(Locators.promo_2_for_849)
+        promo.click()
+        return promo
